@@ -17,20 +17,20 @@ function factorielle($nombreDepart) {
     }
     return $resultatFact;
 }
-function occurenceTexte($texte, $caractere) {
-    $counter = 0;
+function texteOccurence($texte, $caractere) {
+    $compteur = 0;
     for ($i=0; $i < strlen($texte); $i++) {
         if ($texte[$i] == $caractere) {
-            $counter++;
+            $compteur++;
         }
     }
-    return $counter;
+    return $compteur;
 }
 ?>
 
     <!-- partie affichage -->
     <p>la factorille de 7 vaut <?= factorielle(7) ?></p>
-    <p>Nombre de fois "e" dans " je m'appele alexandre": <?= occurenceTexte("je m'appele alexandre", "e") ?></p>
+    <p>Nombre de fois "e" dans " je m'appele alexandre": <?= texteOccurence("je m'appele alexandre", "e") ?></p>
 
 
 
