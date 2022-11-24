@@ -17,10 +17,10 @@ function factorielle($nombreDepart) {
     }
     return $resultatFact;
 }
-function texteOccurence($texte, $caractere) {
+function texteOccurence($texte, $lettre) {
     $compteur = 0;
     for ($i=0; $i < strlen($texte); $i++) {
-        if ($texte[$i] == $caractere) {
+        if ($texte[$i] == $lettre) {
             $compteur++;
         }
     }
