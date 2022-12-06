@@ -1,0 +1,134 @@
+body{
+    background-color: #afc8db;
+    margin: auto;
+}
+a{
+    background-color: #889cab;
+    border-radius: 50%;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    border: solid #324d61 1px;
+    cursor: pointer;
+
+}
+a:hover{
+    background-color: #324D61;
+}
+.menu{
+    background-color: #0d91f5;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.centrale{
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+legend{
+    font-size: 2em;
+    text-align: center;
+    margin: 5px;
+    background-color: #324d61;
+    color: whitesmoke;
+}
+label{
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin: 20px 0 20px 0;
+    display: block;
+}
+.deco-none{
+    margin: 0;
+    text-decoration: none;
+    font-size: 100%;
+    display: inline;
+}
+.droite{
+    width: 40%;
+}
+.gauche{
+    width: 40%;
+}
+img{
+    width: 50px;
+}
+@media screen and (max-width: 645px) {
+    img {
+        display: none;
+    }
+    .galerie{
+        display: none;
+    }
+
+  }
+.image{
+    width: 120px;
+    
+}
+.flex-grow{
+    flex-grow: 50;
+
+}
+input{
+    border: 1px inset rgb(118, 118, 118);
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    cursor: pointer;
+    background-color: #324d61;
+    border-radius: 10px;
+    border: solid #889cab 1px;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: #49545C;
+}
+footer{
+    background-color: #0d91f5;
+    text-align: center;
+    margin-bottom: 0;
+}
+.bas{
+    background-color: #889cab;
+    border-radius: 50%;
+    color: whitesmoke;
+    border: solid #324d61 1px;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.bas:hover{
+    background-color: #324D61;
+}
+h1{
+    background-color: #324D61;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+
+
+
